@@ -1,0 +1,56 @@
+@media screen and (min-device-width:698px) {
+     div#grid {
+       width: 698px;
+       margin: auto;
+     }
+   }
+   
+   div.column {
+     border-style: solid;
+     border-width: 1px;
+   }
+   
+   .row {
+     width: 100%;
+     margin: auto;
+   }
+   
+   @media (min-device-width: 698px) {
+     .column {
+       width: 230px;
+       height: 230px;
+       display: inline;
+       float: left;
+     }
+   }
+   
+   .column {
+     width: 230px;
+     height: 230px;
+     margin: auto;
+   }
+   
+   #grid2{
+     background-color:red;
+   }
+   #grid3{
+     background-color:#AB6239;
+   }
+   #grid4{
+     background-color:#AB9139;
+   }
+   #grid5{
+     background-color:#FFB700;
+   }
+   #grid6{
+     background-color:#82E034;
+   }
+   #grid7{
+     background-color:#522C73;
+   }
+   #grid8{
+     background-color:#7D9F35;
+   }
+   #grid9{
+     background-color:#255E69;
+   }
