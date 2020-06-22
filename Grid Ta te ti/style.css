@@ -1,0 +1,30 @@
+body {
+  margin: 40px;
+}
+
+.box {
+  background-color: #418141;
+  color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 150%;
+  margin: 10px;
+}
+
+.box:nth-child(even) {
+  background-color: #27586B;
+  color: #000;
+}
+
+.contenedor {
+  width: 90%;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns:auto;
+  grid-template-rows: 50% 50% 50%;
+  grid-auto-flow: column;
+}
+
+h1{
+  margin-left:40%;
+}
